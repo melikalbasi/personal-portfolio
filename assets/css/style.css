@@ -1,15 +1,31 @@
-.all {
+.header {
      /* Box-model */
-     max-width: 960px;
-  
-     /* Positioning */
-     margin: 0 auto;
+     max-width: 100%;
+     margin: 0;
+     background-color: white;
+     border-style: solid;
+     border-top: #333;
+     border-width: 1px;
+     border-color: #333;
 }
 
-.header {
-    max-width: 1400px;
-    
-}
+.name {
+    /* Box-model */
+    padding: 18px 10px 18px 10px;
+  
+    /* Positioning */
+    margin: 0;
+    margin-left: 20%;
+    font-size: 24px;
+  
+    /* Typography */
+    color: white;
+    text-align: left;
+  
+    /* Visual */
+    background: #4aaaa5;
+    width: 190px;
+  }
 
 
 .tabs {
@@ -17,15 +33,31 @@
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
     float: right;
+    margin-top: -50px;
+    margin-right: 20%;
+    text-decoration: none;
+}
+
+.tabs a {
+    text-decoration: none;
+    color: gray;
+
 }
 
 .content {
+    margin: 60px 250px;
+    margin-bottom: 200px;
+    position: absolute;
     align-content: center;
     width: 960px;
     background: white;
     background-size: cover;
     border-color: #dddddd;
     flex-wrap: wrap;
+    line-height: 30px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
     
 }
 
@@ -53,39 +85,25 @@ body {
     background: #777777;
     display: inline;
     width: 100%;
+  }
 
-  }
-  
-  .name {
-    /* Box-model */
-    padding: 18px 10px 18px 10px;
-  
-    /* Positioning */
-    margin: 0;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    font-size: 24px;
-  
-    /* Typography */
-    color: #eee;
-    text-align: left;
-  
-    /* Visual */
-    background: #4aaaa5;
-    width: 190px;
-  }
+
   
 .about {
     /* About Me */
+    padding: 10px;
+    margin-left: 5px;
     color: #4aaaa5;
+
 }
 
   
   .photo {
-    float: left;
+    /* float: left; */
     background: white;
     background-size: cover;
-    padding: 1%;
+    margin: 10px;
+    float: left;
   }
 
   .footer { 
@@ -98,6 +116,53 @@ body {
     color: rgb(170, 170, 170);
     clear: both;
     padding: 30px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
+}
+
+
+hr {
+    margin: 15px;
+}
+
+
+.tech h3 {
+        /* Box-model */
+        padding: 18px 10px 18px 10px;
+  
+        /* Positioning */
+        margin: 0;
+        margin-left: 20px;
+        font-size: 24px;
+        z-index: 10;
+      
+        /* Typography */
+        color: white;
+        text-align: left;
+      
+        /* Visual */
+        background: #4aaaa5;
+        width: 340px;
+}
+
+.tech img {
+    z-index: 1;
+         /* Box-model */
+         padding: 18px 10px 18px 10px;
+  
+         /* Positioning */
+         margin: 0;
+         margin-left: 20px;
+         font-size: 24px;
+         z-index: 10;
+       
+         /* Typography */
+         color: white;
+         text-align: left;
+}
+
+.tech {
+    background: red;
+    display: inline;
+    border: 2px solid blue;
 }
