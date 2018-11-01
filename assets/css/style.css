@@ -1,0 +1,103 @@
+.all {
+     /* Box-model */
+     max-width: 960px;
+  
+     /* Positioning */
+     margin: 0 auto;
+}
+
+.header {
+    max-width: 1400px;
+    
+}
+
+
+.tabs {
+    max-width: 100%;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+}
+
+.content {
+    align-content: center;
+    width: 960px;
+    background: white;
+    background-size: cover;
+    border-color: #dddddd;
+    flex-wrap: wrap;
+    
+}
+
+body {
+    /* Box-model */
+    padding: 0px;
+    text-align: left;
+  
+    /* Positioning */
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  
+    /* Typography */
+    font-size: 14px;
+    line-height: 150%;
+    color: #333;
+  
+    /* Visual */
+    background-image: url("topography.png");
+    
+  }
+  
+  .nav {
+    position: relative;
+    background: #777777;
+    display: inline;
+    width: 100%;
+
+  }
+  
+  .name {
+    /* Box-model */
+    padding: 18px 10px 18px 10px;
+  
+    /* Positioning */
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+  
+    /* Typography */
+    color: #eee;
+    text-align: left;
+  
+    /* Visual */
+    background: #4aaaa5;
+    width: 190px;
+  }
+  
+.about {
+    /* About Me */
+    color: #4aaaa5;
+}
+
+  
+  .photo {
+    float: left;
+    background: white;
+    background-size: cover;
+    padding: 1%;
+  }
+
+  .footer { 
+    display: block;
+    margin-bottom: 0%;
+    background: #4b4a4a;
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(170, 170, 170);
+    clear: both;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+}
