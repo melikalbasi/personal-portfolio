@@ -1,42 +1,16 @@
-.header {
-     /* Box-model */
-     max-width: 100%;
-     margin: 0;
-     background-color: white;
-     border-style: solid;
-     border-top: #333;
-     border-width: 1px;
-     border-color: #333;
+
+.logo {
+    margin-left: 40%;
 }
 
-.name {
-    /* Box-model */
-    padding: 18px 10px 18px 10px;
-  
-    /* Positioning */
-    margin: 0;
-    margin-left: 20%;
-    font-size: 24px;
-  
-    /* Typography */
-    color: white;
-    text-align: left;
-  
-    /* Visual */
-    background: #4aaaa5;
-    width: 190px;
-  }
-
-
-.tabs {
-    max-width: 100%;
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    float: right;
-    margin-top: -50px;
-    margin-right: 20%;
-    text-decoration: none;
+.webdev {
+    font-family: 'Orbitron', sans-serif;
+    color:rgb(24,101,255);
+    font-size: 30px;
+    margin-left: 58%;
 }
+
+
 
 .tabs a {
     text-decoration: none;
@@ -50,7 +24,7 @@
     position: absolute;
     align-content: center;
     width: 960px;
-    background: white;
+    background: blue;
     background-size: cover;
     border-color: #dddddd;
     flex-wrap: wrap;
@@ -61,57 +35,21 @@
     
 }
 
+/* Background */
 body {
-    /* Box-model */
-    padding: 0px;
-    text-align: left;
-  
-    /* Positioning */
-    margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
   
     /* Typography */
-    font-size: 14px;
     line-height: 150%;
-    color: #333;
   
     /* Visual */
-    background-image: url("topography.png");
+    background-image: url("../images/linear.gif");
     
   }
   
-  .nav {
-    position: relative;
-    background: #777777;
-    display: inline;
-    width: 100%;
-  }
+
 
 
   
-.about {
-    /* About Me */
-    padding: 10px;
-    margin-left: 5px;
-    color: #4aaaa5;
-
-}
-
-  
-  .photo {
-    /* float: left; */
-    background: white;
-    background-size: cover;
-    margin: 10px;
-    float: left;
-  }
-
-
-
-
-hr {
-    margin: 15px;
-}
 
 
 .tech h3 {
@@ -229,11 +167,12 @@ input {
 
 
 
-.footer { 
+/* .footer { 
     display: block;
     margin-bottom: 0%;
-    background: #4b4a4a;
+    background: black;
     text-align: center;
+    height: 20px;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(170, 170, 170);
@@ -241,4 +180,118 @@ input {
     padding: 30px;
     position: fixed;
     bottom: 0;
-}
+} */
+
+
+
+
+/* External Links CSS */
+body{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10px;
+    text-align: center;
+ }
+ 
+ .content{
+   position: absolute;
+   text-align: center;
+   margin: -10px 0 0 -30px;
+   top: 70%;
+   left: 50%;
+   font-size: 20px;
+ }
+ 
+ #menu {
+     width: 150px;
+     height: 150px;
+     position: absolute;
+     left: 90%;
+     top: 85%;
+     margin: -75px 0 0 -75px;
+     list-style: none;
+     font-size: 200%;
+ }
+ 
+ .menu-button {
+     opacity: 0;
+     z-index: -1;
+ }
+ 
+ .menu-button {
+     width: 150px;
+     height: 150px;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     margin: -75px 0 0 -75px;
+     border-radius: 50%;
+     background: rgb(24,101,255);
+     background-size: 100%;
+     overflow: hidden;
+     text-decoration: none;
+ }
+
+ .menu-button:hover {
+     background: white;
+ }
+ 
+ #menu:not(:target)>a:first-of-type,
+ #menu:target>a:last-of-type {
+     opacity: 1;
+     z-index: 1;
+ }
+ 
+ #menu:not(:target)>.icon-plus:before,
+ #menu:target>.icon-minus:before {
+     opacity: 1;
+ }
+ 
+ .menu-item {
+     width: 70px;
+     height: 70px;
+     position: absolute;
+     left: 55%;
+     line-height: 5px;
+     top: 50%;
+     margin: -50px 0 0 -50px;
+     border-radius: 50%;
+     background-color: rgb(24,101,255);
+     transform: translate(0px, 0px);
+     transition: transform 500ms;
+     z-index: -2;
+     transition: .5s;
+ }
+ 
+ .menu-item:hover{
+ opacity: 0.5;
+   box-shadow: 0 5px 10px black; 
+ }
+ 
+ 
+ .menu-item a {
+     color: #fff;
+     position: relative;
+     top: 30%;
+     left: 0;
+     text-decoration: none;
+ }
+ 
+ #menu:target>.menu-item:nth-child(6) {
+     transform: rotate(60deg) translateY(-150px) rotate(300deg);
+     transition-delay: 0s;
+ }
+ 
+ #menu:target>.menu-item:nth-child(5) {
+     transform: rotate(20deg) translateY(-155px) rotate(-20deg);
+     transition-delay: 0.1s;
+ }
+ 
+ #menu:target>.menu-item:nth-child(3) {
+     transform: rotate(-20deg) translateY(-155px) rotate(20deg);
+     transition-delay: 0.2s;
+ }
+ 
+ #menu:target>.menu-item:nth-child(4) {
+     transform: rotate(-60deg) translateY(-150px) rotate(60deg);
+     transition-delay: 0.3s;
+ }
