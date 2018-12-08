@@ -34,6 +34,11 @@ body {
 
 /* Portfolio Styling */
 
+.gallery {
+    margin-left: 90%!important;
+    border-spacing: 0px;
+}
+
 .project {
     clear: both;
     display: inline-table;
