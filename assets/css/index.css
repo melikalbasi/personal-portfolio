@@ -62,7 +62,7 @@ h5 {
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: rgb(110, 5, 5);
+  background-color: rgb(213, 30, 30);
   color: white;
   padding: 16px;
   font-family: 'Poiret One', cursive;
@@ -102,4 +102,4 @@ h5 {
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: darkred;}
+.dropdown:hover .dropbtn {background-color: rgb(175, 14, 14);}
