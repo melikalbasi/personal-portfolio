@@ -1,3 +1,6 @@
 $(document).ready();
 
-$(".gallery").attr("class", "magictime slideRightReturn justify-content-right text-center m-0 ml-5 pt-5");
+$("#logo").attr("class", "magictime puffIn justify-content-center text-center m-0 ml-5 p-5");
+
+
+$(".port").attr("class", "magictime puffIn justify-content-center text-center m-0 ml-5 pt-0");
