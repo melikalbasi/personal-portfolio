@@ -102,4 +102,4 @@ h5 {
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: rgb(175, 14, 14);}
+.dropdown:hover .dropbtn {background-color: black;}
