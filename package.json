@@ -1,0 +1,24 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "This file is to my personal portfolio. Here, you will find out more about me and my background, access my work portfolio where I demonstrate my abilities in using HTML and CSS.",
+  "main": "portfolio.js",
+  "dependencies": {
+    "animejs": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melikalbasi/personal-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melikalbasi/personal-portfolio/issues"
+  },
+  "homepage": "https://melikalbasi.github.io/"
+}
